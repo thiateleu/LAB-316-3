@@ -84,3 +84,12 @@ var menuLinks = [
     ],
   },
 ];
+
+/// 1- Select and cache the all of the <a> elements inside of topMenuEl in a variable
+// named topMenuLinks.
+
+var topMenuEl = document.getElementById("top-menu");
+var topMenuLinks = topMenuEl.getElementsByTagName("a");
+
+///// 2-  Attach a delegated 'click' event listener to topMenuEl.
+topMenuEl.addEventListener("click");
